@@ -181,16 +181,14 @@ label{
     line-height: 40px;
 }
 .extra-container{
-    display: grid;
+display: grid;
    grid-template-columns: repeat(2,1fr);
    align-items: center;
    padding: 20px 40px;
    width: 90%;
-   margin-right: 5%;
+   
 }
-.video{
-    /* padding-left: 40px; */
-}
+
 .colory{
     color: maroon;
     font-weight: 800;
@@ -273,15 +271,13 @@ label{
    
 }
 .video{
-  width: 60%;  
-  /* margin:0px 10px; */
+  width: 70%;  
 } 
 .wrapper{
     width: 80%;
  
 }
 footer{
-    /* margin-left: 25%;
-    margin-right: 25%; */
+    
 }
 }
