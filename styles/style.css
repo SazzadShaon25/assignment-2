@@ -1,14 +1,17 @@
 /* -----google fonts ----*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    margin-top:50px;
     width: 1050px;
-    height:1896px;
 }
 main{
     padding-bottom: 250px;
@@ -22,7 +25,7 @@ main{
     grid-template-columns: repeat(2,1fr);
     background-color:darkcyan;
     margin-bottom: 100px;
-    grid-column-gap: 102px;
+    grid-column-gap: 32px;
 }
 .cover-details h1{
     font-weight: bold;
@@ -35,7 +38,7 @@ main{
 }
 .cover-area img{
     width: 556.01px;
-    height: 438px;
+    height: 438px; 
     padding-left: 102px;
     padding-right: 140px;
     margin-top: 67px ;
@@ -65,20 +68,27 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    align-items: center;
     grid-column-gap:30px;
-    grid-row-gap:27px;
-    width: 330px;
-    height: 474px;  
+    grid-row-gap:27px; 
+   width: 100%;
+   margin-right:210px;
+   margin-left: 180px;
+    /* width: 330px;
+    height: 474px;    */
+    
 }
 .player{
     border: 1px solid whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+    align-items: center;
+    padding: 15px 15px;
     border-radius: 15px;
     box-shadow: 0px 0px 15px gray;
     transition: all 0.5s ease;
+    width: 330px;
+    height: 474px; 
 
 }
 .player:hover {
@@ -123,19 +133,25 @@ footer img{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center; 
-        width: 360px;
-        height: 695px; 
+        margin: 0%;
+        padding: 0%;
         width: 100%;
-        
+        margin: bottom 47px;;
+             
     }
     .cover-details h1{
         font-size: 36px;
+        line-height:40px;
+        
     }
     .button a{
         width: 168px;
         height: 44px;
         font-size: 16px;
-        
+               
+    }
+    .button{
+        margin-bottom: 40px;
         
     }
     .button a:hover{
@@ -143,32 +159,31 @@ footer img{
     }
     .cover-details{
         padding-top: 0%;
-        width: 278px;
+        width: 275px;
         height: 138px;
         font-size: 36px;
         padding: 0%;
-        margin: 0%;
+        margin-bottom: 30px;
            
     }
     .cover-area img{
         margin: 0%;
+        padding: 0%;
         height: 259px;
-        width: 329px;
-        margin-top:50px;
-    }
+        width: 324px;
+        margin-top:100px;
+    } 
 
  .players{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; 
+   
+    grid-template-columns: repeat(1,1fr);
          
  }
- .player{
-    width: 100%; 
-    width: 330px;
-    height: 474px; 
-    margin: auto;  
- }
- 
+ .player{ 
+   
+   
+}
+.container{
+    width: 100%;
+}
 }
